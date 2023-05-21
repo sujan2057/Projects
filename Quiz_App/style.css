@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  margin: 150px auto;
+  background: linear-gradient(
+    rgba(123, 198, 242, 0.5),
+    rgba(246, 187, 245, 0.5)
+  );
+  text-align: center;
+  position: relative;
+}
+.container h1 {
+  padding: 20px 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.question_container {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgba(50, 146, 248, 0.564);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.start {
+  padding: 8px 16px;
+  font-size: 15px;
+  border-radius: 10px;
+  background: transparent;
+  transition: all 0.5s;
+  margin: 10px auto;
+}
+.answer_container {
+  display: flex;
+  columns: 2;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.answer_container div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 6px;
+  cursor: pointer;
+}
+.answer_container div:hover {
+  background-color: ;
+}
+#first {
+  flex-basis: 46%;
+}
+#second {
+  flex-basis: 46%;
+}
+#third {
+  flex-basis: 46%;
+}
+#fourth {
+  flex-basis: 46%;
+}
+.container .btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn button {
+  margin: 0 20px 10px 0;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background: transparent;
+}
